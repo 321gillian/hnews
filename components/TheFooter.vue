@@ -5,11 +5,17 @@
     <div
       class="TheFooter__links flex flex-col md:flex-row align-center md:w-2/5 justify-between items-center"
     >
-      <a href="#" class="text-sm">FAQ</a>
-      <a href="#" class="text-sm">API</a>
-      <a href="#" class="text-sm">Legal</a>
-      <a href="#" class="text-sm">Contact</a>
-      <a href="#" class="text-sm">Careers</a>
+      <a href="#" class="text-sm hover:underline hover:text-orange-600">FAQ</a>
+      <a href="#" class="text-sm hover:underline hover:text-orange-600">API</a>
+      <a href="#" class="text-sm hover:underline hover:text-orange-600"
+        >Legal</a
+      >
+      <a href="#" class="text-sm hover:underline hover:text-orange-600"
+        >Contact</a
+      >
+      <a href="#" class="text-sm hover:underline hover:text-orange-600"
+        >Careers</a
+      >
     </div>
   </div>
 </template>

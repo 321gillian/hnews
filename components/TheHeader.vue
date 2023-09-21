@@ -5,7 +5,9 @@
     <div class="flex">
       <h1 class="text-7xl font-medium text-white">Hacker News</h1>
     </div>
-    <a href="#" class="hover:color text-white"><h4>Login</h4></a>
+    <a href="#" class="hover:text-zinc-800 hover:underline text-white"
+      ><h4>Login</h4></a
+    >
   </div>
   <hr class="h-1 mb-4 bg-orange-400 border-0" />
 </template>
