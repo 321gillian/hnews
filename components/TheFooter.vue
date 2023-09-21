@@ -1,5 +1,5 @@
 <template>
-  <div
+  <footer
     class="w-full bg-zinc-800 text-white px-5 pt-10 pb-24 flex justify-center"
   >
     <div
@@ -17,5 +17,5 @@
         >Careers</a
       >
     </div>
-  </div>
+  </footer>
 </template>

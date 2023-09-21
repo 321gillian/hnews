@@ -1,6 +1,6 @@
 
 
-# Code Test Task - Some notes from Gillian
+# Code Test Notes
 Using any framework you prefer (or none), utilise the Hacker News API to create a web application that shows the latest stories
 
 Approach:
@@ -27,15 +27,15 @@ There's tests for the four components just to give an example of a few unit test
 * Footer
 * List of news items
 * Filter options that can change the list
+* Items shows as loading before story is added
 
 ## Features not yet added
 * More stories option is included but not working
 * Login not doing anything really
-* I'd like to add a loading component for the switches between filters on the stories
-* This UI theme is kind of loosely based on the Hacker News page but I'm mainly using Tailwind, would be more consistent with more time and though.
-* I think there's probably a regex I need to do to get the domain from the url and display it but I'm going to leave that out for now
+* This UI theme is kind of loosely based on the Hacker News page but I'm mainly using Tailwind, would be more consistent with more time and thought.
+* Upvoting changes the display of the button but doesn't really stick so it's just for fun
+* Could definitely use more accessiblity elements
 * The rest of the site, of course!
-
 
 ## Setup
 

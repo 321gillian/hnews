@@ -1,15 +1,18 @@
 <template>
-  <div class="flex justify-end w-full">
-    <h4
+  <nav class="flex justify-end w-full">
+    <button
       v-for="(item, index) in listOfFilters"
       :key="index"
-      :class="item === selectedFilter ? 'bg-orange-600' : 'bg-stone-700'"
-      class="text-white px-4 py-0.5 rounded-full mr-3 capitalize hover:bg-orange-800 cursor-pointer"
+      :class="[
+        item === selectedFilter ? 'bg-orange-600' : 'bg-stone-700',
+        index + 1 === listOfFilters.length ? 'mr-0' : 'mr-3',
+      ]"
+      class="text-white px-4 py-0.5 rounded-full capitalize hover:bg-orange-800 cursor-pointer"
       @click.prevent="$emit('set-filter', item)"
     >
       {{ item }}
-    </h4>
-  </div>
+    </button>
+  </nav>
 </template>
 <script>
 export default {

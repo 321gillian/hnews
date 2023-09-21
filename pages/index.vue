@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <main>
     <div class="lg:mx-24 md:mx-12 mx-4">
       <ListFilter
         class="mb-4 text-right"
@@ -21,7 +21,7 @@
         More stories...
       </button>
     </div>
-  </div>
+  </main>
 </template>
 <script>
 import { ref, watch, computed } from "vue";
@@ -41,7 +41,7 @@ export default {
       const res = await fetch(listUrl.value);
       const resIds = await res.json();
       if (resIds.length > 0) storyIds.value = [...resIds];
-      currentPagesStories.value = [...storyIds.value.slice(0, 10)];
+      currentPagesStories.value = [...storyIds.value.slice(0, 25)];
     }
 
     getHackerNewsItems();
