@@ -22,6 +22,14 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 ## Tests
 There's tests for the four components just to give an example of a few unit tests using Vitest.
 
+Run tests:
+
+```bash
+# npm
+npm test
+
+```
+
 ## Features added
 * Header
 * Footer
