@@ -1,5 +1,7 @@
 <template>
-  <nav class="flex justify-end w-full">
+  <nav
+    class="flex md:justify-end md:w-full w-auto overflow-x-scroll md:overflow-hidden"
+  >
     <button
       v-for="(item, index) in listOfFilters"
       :key="index"
