@@ -10,7 +10,7 @@ describe("ListFilter", async () => {
   });
 
   test("mount component", () => {
-    const items = wrapper.findAll("h4");
+    const items = wrapper.findAll("button");
     expect(items).toHaveLength(5);
     expect(items[0].text()).toEqual("top");
     expect(items[1].text()).toEqual("new");
@@ -20,7 +20,7 @@ describe("ListFilter", async () => {
   });
 
   test("emits 'set-filter' on list item click", async () => {
-    const items = wrapper.findAll("h4");
+    const items = wrapper.findAll("button");
     await items[0].trigger("click");
     expect(wrapper.emitted("set-filter")[0]).toContain("top");
   });
